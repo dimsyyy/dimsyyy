@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- INI TITLE -->
+    <title>DimsyStudio✨</title>
+
+    <!-- INI FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./style.css"/>
+
+
+    <!-- INI FONTTT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Noto+Sans+Chorasmian&family=Rubik&display=swap" rel="stylesheet">
+    
+    <!-- INI ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script>
+        // Mendeteksi jenis perangkat yang digunakan
+        function detectDevice() {
+            var isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+            return isMobile;
+        }
+
+        // Mengarahkan ke halaman yang sesuai
+        function redirectToMobile() {
+            if (!detectDevice()) {
+                window.location.href = "laptopview.html";
+            }
+        }
+        function welcome(){
+            alert('Selamat datang di DimsyStudio!.\n mohon nonaktifkan mode gelap/ mode malam untuk kenyamanan menjelajah!');
+        }
+    </script>
+</head>
+<!-- <body onload="redirectToMobile()"> -->
+<body>
+    <!-- INI NAVBARR -->
+    <nav class="wrapper">
+        <div class="brand">
+            DimsyStudio
+        </div>
+        <div class="nav"> 
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <!-- INI SOSIAL MEDIA -->
+    <div class="social-buttons">
+        <a href="https://wa.me/+6289509367971?text=DimsyStudio!" class="social-button whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/dimasyuda.pratama.35" class="social-button facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/dimytma.17" class="social-button instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p id="home">.</p>
+
+    <!-- INI BAGIAN HOME -->
+        <div class="brand-home">
+            <h2>DIMSYSTUDIO</h2>    
+            <h2 class="txtdown">EVERYTHING IS ONLY 4U</h2>
+            <p class="desc-brand">DimsyStudio berisi apa saja yang telah dibuat oleh pembuat ini</p>
+        </div>
+        <hr class="horline">
+
+        <div class="wrap">
+            <div class="slider">
+                <img class="imgslide" src="/img/sign.png">
+                <img class="imgslide" src="img/wonderfull.png">
+                <img class="imgslide" src="img/tutorjs.png">
+            </div>
+        </div>
+        <hr class="horline">
+        <div class="kumpullink">
+            <h2 class="jdllink">
+                Link HTML
+            </h2>
+        </div>
+        <div class="kmpllink2">
+            <a href="https://dimsyyy.github.io/dimsy.github.io" class="link"><div class="cardlink"><img src="/img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">BUCIN 1</h2></div></a>
+            <a href="" class="link"><div class="cardlink"><img src="/img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">HBD 1 (COOMING SOON)</h2></div></a>
+            <a href="" class="link"><div class="cardlink"><img src="img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">COMING SOON</h2></div></a>
+        </div>
+        <hr class="horline">
+
+<center>
+    <!-- INI BAGIAN ABOUT ME -->
+        <div class="about-me" >
+            <fieldset class="about-fieldset">
+                <legend>ABOUT ME</legend>
+                    <center><img class="about-img" src="img/naruto.png"></center>
+                    <h2 id="about">Dimas Yuda Pratama</h2>
+                    <p class="bio">Hanya seorang pemuda berjiwa petualang yang lahir pada tanggal 17 Agustus 2006, dengan semangat yang membara menjadi web & game developer. Meskipun hanya memiliki perangkat sederhana, ia menggali potensi tak terbatas dan menjelajahi dunia digital dengan penuh keberanian.
+                    </p>
+            </fieldset>
+        </div>
+</center>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var slider = document.querySelector('.slider');
+      var images = document.querySelectorAll('.imgslide');
+      var currentImageIndex = 0;
+      var slideWidth = slider.clientWidth;
+      var interval = setInterval(changeImage, 3000); // Ubah gambar setiap 3 detik (3000 milidetik)
+
+      function changeImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        slider.style.transform = `translateX(-${slideWidth * currentImageIndex}px)`;
+      }
+    });
+  </script>
+
+</body>
+</html>
