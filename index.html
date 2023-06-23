@@ -33,11 +33,12 @@
         function redirectToMobile() {
             if (!detectDevice()) {
                 window.location.href = "laptopview.html";
+            } else {
+                alert('Selamat datang di DimsyStudio!.\n mohon nonaktifkan mode gelap / mode malam untuk kenyamanan menjelajah!');
             }
         }
-        function welcome(){
-            alert('Selamat datang di DimsyStudio!.\n mohon nonaktifkan mode gelap/ mode malam untuk kenyamanan menjelajah!');
-        }
+            
+
     </script>
 </head>
 <body onload="redirectToMobile(), welcome()">
