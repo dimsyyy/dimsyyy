@@ -1,2 +1,2 @@
-# dimhome
-Kosongggggggggg
+# DimsyStudio
+Berisi web web gabut
