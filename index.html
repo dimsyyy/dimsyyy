@@ -1,125 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- INI IKLAN -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8641296052888479"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <!-- INI TITLE -->
     <title>DimsyStudio✨</title>
 
     <!-- INI FAVICON -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="./style.css"/>
 
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- INI BOOTSTRAP NAVBAR -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- INI FONTTT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Noto+Sans+Chorasmian&family=Rubik&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Noto+Sans+Chorasmian&family=Rubik&display=swap"
+        rel="stylesheet">
+
     <!-- INI ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    
+
     <script>
-        // Mendeteksi jenis perangkat yang digunakan
+
         function detectDevice() {
             var isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone/i.test(navigator.userAgent);
             return isMobile;
         }
 
-        // Mengarahkan ke halaman yang sesuai
+        
         function redirectToMobile() {
             if (!detectDevice()) {
                 window.location.href = "laptopview.html";
             } else {
-                alert('Selamat datang di DimsyStudio!.\n mohon nonaktifkan mode gelap / mode malam untuk kenyamanan menjelajah!');
+                alert('Selamat datang di DimsyStudio!.\nMohon nonaktifkan mode gelap / mode malam untuk kenyamanan menjelajah!');
             }
         }
-            
+
 
     </script>
 </head>
+
 <body onload="redirectToMobile()">
 
     <!-- INI NAVBARR -->
-    <nav class="wrapper">
-        <div class="brand">
-            DimsyStudio
-        </div>
-        <div class="nav"> 
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
+    <nav class="navbar navbar-light bg-light" aria-label="First navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DimsyStudio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+                aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
+    <!-- BG BIRU AWAN -->
+    <div class="bg">
+        <img src="img/bg.jpg" alt="bg" class="imgg">
+    </div>
     <!-- INI SOSIAL MEDIA -->
     <div class="social-buttons">
-        <a href="https://wa.me/+6289509367971?text=DimsyStudio!" class="social-button whatsapp"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.facebook.com/dimasyuda.pratama.35" class="social-button facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/+6289509367971?text=DimsyStudio!" class="social-button whatsapp"><i
+                class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/dimasyuda.pratama.35" class="social-button facebook"><i
+                class="fab fa-facebook"></i></a>
         <a href="https://instagram.com/dimytma.17" class="social-button instagram"><i class="fab fa-instagram"></i></a>
     </div>
     <p id="home">.</p>
 
     <!-- INI BAGIAN HOME -->
-        <div class="brand-home">
-            <h2>DIMSYSTUDIO</h2>    
-            <h2 class="txtdown">EVERYTHING IS ONLY 4U</h2>
-            <p class="desc-brand">DimsyStudio berisi apa saja yang telah dibuat oleh pembuat web ini</p>
-        </div>
-        <hr class="horline">
+    <div class="brand-home">
+        <h2>DIMSYSTUDIO</h2>
+        <h2 class="txtdown">EVERYTHING IS ONLY 4U</h2>
+        <p class="desc-brand">DimsyStudio berisi apa saja yang telah dibuat oleh pembuat web ini</p>
+    </div>
+    <hr class="horline">
 
-        <div class="wrap">
-            <div class="slider">
-                <img class="imgslide" src="/img/sign.png">
-                <img class="imgslide" src="img/wonderfull.png">
-                <img class="imgslide" src="img/tutorjs.png">
+    <!-- <hr class="horline"> -->
+    <div class="kumpullink">
+        <h2 class="jdllink">
+            Kumpulan Link Website yang Mungkin Kamu Cari!
+        </h2>
+    </div>
+    <div class="kmpllink2">
+        <a href="https://dimsyyy.github.io/dimsy.github.io" class="link">
+            <div class="cardlink"><i class="fas fa-heart" id="love"></i>
+                <p class="list">Bucin HTML 1<br>
+                    <span class="desc">Website yang dapat kamu gunakan untuk pacar atau teman dekat kamu nih!, kamu bisa klik teks ini atau gambar disamping ya!</span>
+                </p>
             </div>
-        </div>
-        <hr class="horline">
-        <div class="kumpullink">
-            <h2 class="jdllink">
-                Link HTML
-            </h2>
-        </div>
-        <div class="kmpllink2">
-            <a href="https://dimsyyy.github.io/dimsy.github.io" class="link"><div class="cardlink"><img src="/img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">BUCIN 1</h2></div></a>
-            <a href="" class="link"><div class="cardlink"><img src="/img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">HBD 1 (COOMING SOON)</h2></div></a>
-            <a href="" class="link"><div class="cardlink"><img src="img/lucu.gif" alt="gambar link" class="img-link"><h2 class="list">COMING SOON</h2></div></a>
-        </div>
-        <hr class="horline">
+        </a>
+        <a href="#" class="link">
+            <div class="cardlink"><i class="fas fa-birthday-cake" id="kue"></i>
+                <p class="list">Ucapan Ulang Tahun (Cooming Soon)<br>
+                    <span class="desc">Website yang dapat kamu gunakan untuk ngucapin selamat ulang tahun nih!, kamu bisa klik teks ini atau gambar disamping ya!</span>
+                </p>
+            </div>
+        </a>
+        <a href="" class="link">
+            <div class="cardlink"><img src="img/lucu.gif" alt="gambar link" class="img-link">
+                <h2 class="list">COMING SOON</h2>
+            </div>
+        </a>
+    </div>
+    <hr class="horline">
 
-<center>
-    <!-- INI BAGIAN ABOUT ME -->
-        <div class="about-me" >
+    <center>
+        <!-- INI BAGIAN ABOUT ME -->
+        <div class="about-me">
             <fieldset class="about-fieldset">
-                <legend>ABOUT ME</legend>
-                    <center><img class="about-img" src="img/naruto.png"></center>
-                    <h2 id="about">Dimas Yuda Pratama</h2>
-                    <p class="bio">Hanya seorang pemuda berjiwa petualang yang lahir pada tanggal 17 Agustus 2006, dengan semangat yang membara menjadi web & game developer. Meskipun hanya memiliki perangkat sederhana, ia menggali potensi tak terbatas dan menjelajahi dunia digital dengan penuh keberanian.
-                    </p>
+                <center><img class="about-img" src="img/naruto.png"></center>
+                <h2 id="about">Dimas Yuda Pratama</h2>
+                <p class="bio">Hanya seorang pemuda berjiwa petualang yang lahir pada tanggal 17 Agustus 2006, dengan
+                    semangat yang membara menjadi web & game developer. Meskipun hanya memiliki perangkat sederhana, ia
+                    menggali potensi tak terbatas dan menjelajahi dunia digital dengan penuh keberanian.
+                </p>
             </fieldset>
         </div>
-</center>
+    </center>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var slider = document.querySelector('.slider');
-      var images = document.querySelectorAll('.imgslide');
-      var currentImageIndex = 0;
-      var slideWidth = slider.clientWidth;
-      var interval = setInterval(changeImage, 3000); // Ubah gambar setiap 3 detik (3000 milidetik)
+    <script>
+        const buttonmenu = document.getElementById("navbar-toggle");
+        const navbarLink = document.getElementById("navbar-links");
 
-      function changeImage() {
-        currentImageIndex = (currentImageIndex + 1) % images.length;
-        slider.style.transform = `translateX(-${slideWidth * currentImageIndex}px)`;
-      }
-    });
-  </script>
+        buttonmenu.addEventListener("click", () => {
+            navbarLink.classList.toggle("active");
+        });
+    </script>
 
 </body>
+
 </html>
