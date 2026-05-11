@@ -12,8 +12,8 @@
   <img src="https://img.shields.io/badge/-UI/UX_Explorer-e74c3c?style=flat-square&logo=adobe-photoshop&logoColor=white" />
 </p>
 
-> **"Turning logic into aesthetic solutions."** 
-> Saat ini sedang mendalami arsitektur perangkat lunak yang bersih dan interaksi antarmuka yang modern.
+> Ayah mungkin tidak mempertaruhkan nyawanya saat aku lahir,
+> tapi ia mempertaruhkan seluruh hidupnya agar aku bisa hidup.
 
 ---
 
