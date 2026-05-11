@@ -26,12 +26,12 @@
 
 ### 📊 My GitHub Journey
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=tokyonight&hide_border=true&title_color=79ffad&text_color=d1d1d1" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME_HERE&layout=compact&theme=tokyonight&hide_border=true&title_color=79ffad&text_color=d1d1d1" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dimsyyy&show_icons=true&theme=tokyonight&hide_border=true&title_color=79ffad&text_color=d1d1d1" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dimsyyy&layout=compact&theme=tokyonight&hide_border=true&title_color=79ffad&text_color=d1d1d1" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME_HERE&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=diimsyyy&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
