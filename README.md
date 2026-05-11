@@ -1,9 +1,6 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=200&section=header&text=Dimas%20Yuda&fontSize=70&animation=fadeIn" />
-</p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME_HERE&theme=tokyonight&margin-w=15&column=5" alt="trophy" /></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dimsyyy&theme=tokyonight&margin-w=15&column=5" alt="trophy" /></a>
 </p>
 
 ---
