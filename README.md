@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake.svg" width="90%" />
-</picture>
+
 
 <br/><br/>
 
@@ -18,5 +14,10 @@
 
 <img src="assets/divider.svg" alt="" width="80%" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake.svg" />
+  <img alt="snake" src="https://raw.githubusercontent.com/dimsyyy/dimsyyy/output/github-snake.svg" width="90%" />
+</picture>
 </div>
 
